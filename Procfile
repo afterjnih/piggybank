@@ -1,0 +1,1 @@
+web: bundle exec rackup piggybank.ru -p $PORT
