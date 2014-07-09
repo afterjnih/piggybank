@@ -1,5 +1,5 @@
 require 'rack'
-require 'show'
+load 'show.rb'
 
 class Piggybank
   def call(env)
