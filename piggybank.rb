@@ -1,4 +1,5 @@
 require 'rack'
+require 'show'
 
 class Piggybank
   def call(env)
