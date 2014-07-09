@@ -2,6 +2,7 @@ require 'rack'
 
 class Piggybank
   def call(env)
-    [200, {"Content-Type" => "text/plain"},["Hello piggybank"]]
+    sim = ShowInputMenu.new()
+    [200, {"Content-Type" => "text/plain"},sim.show]
   end
 end

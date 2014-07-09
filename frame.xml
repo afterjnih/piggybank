@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<root>
+  <first balance="in">
+    <second item="income">
+      <third>salaly</third>
+      <third>bonus</third>
+    </second>
+    <second item="otherincome">
+      <third>other</third>
+    </second>
+  </first>
+  <first balance="out">
+    <second item="food">
+      <third>eatin</third>
+      <third>takeout</third>
+    </second>
+    <second item="commute">
+      <third>train</third>
+      <third>bus</third>
+    </second>
+  </first>
+</root>
